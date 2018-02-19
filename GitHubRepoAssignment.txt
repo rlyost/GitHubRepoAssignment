@@ -1,0 +1,17 @@
+GITHUB
+click on new repository
+give is name: GitHubRepoAssignment
+
+In terminal:
+mkdir GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+git remote add origin https://github.com/rlyost/GitHubRepoAssignment.git
+git push -u origin master
+
+touch readme.md
+git add .
+git commit -m "first commit"
+
+git push
+git status
